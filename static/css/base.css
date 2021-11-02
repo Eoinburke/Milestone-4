@@ -2,39 +2,8 @@ html {
     height: 100%;
 }
 
-body {
-    background: url('/media/home.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: white;
-    font-family: 'Lato';
-}
-
-ul {
-    list-style-type: none;
-    position: 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  .list-inline-item {
-     position: relative;
-  }
-
+h1,h2,h3,h4,h5,h6 { font-family: "Oswald"}
+body {font-family: "Open Sans"}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
