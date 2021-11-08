@@ -1,9 +1,175 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 h1,h2,h3,h4,h5,h6 { font-family: "Oswald"}
 body {font-family: "Open Sans"}
+
+/* -------------------------------- Nav */
+.nav-item.active > a {
+  color: rgb(255,0,0,1)!important;
+}
+
+.custom-toggler.navbar-toggler {
+border-color: rgb(223, 56, 89);
+} 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.topnav-centered {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* from Bulma similar to bootstraap*/
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.logo-font {
+  text-transform: uppercase;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+.logo{
+  height: 4rem;
+}       
+
+.main-logo-link {
+  width: fit-content;
+}
+
+
+.facebook-official {
+  color: #3B5998;
+}
+
+.fa-instagram {
+color: #C13584;
+}
+
+.fa-snapchat{
+color: 	#FFFC00;
+}
+
+.fa-linkedin {
+color: #0e76a8;
+}
+
+.fa-github {
+color: #4078c0;
+}
+
+.fa-user:hover {
+
+}
+
+
+/*----------- Footer -------------*/
+
+#footer {
+  background-color: #262626;
+  color: white;
+  padding-top: 30px;
+
+}
+footer li {
+  list-style: none;
+}
+footer li a{
+  color: gray;
+  text-decoration:none; 
+}
+footer li a:hover{
+  color: blanchedalmond; 
+  text-decoration:none; 
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-heading {
+  margin-bottom: 2rem;
+}
+.footer-img img {
+  width: 80%;
+}
+.footer-links {
+  text-align: center;
+  text-transform: uppercase;
+}
+.social-links{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.social-links a {
+  font-size: 25px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+.social-links a:hover {
+  text-decoration: none;
+  color:rgb(0, 128, 129);
+}
+.service-links {
+  Padding-left : 20px;
+}
+.copyright {
+  background-color: #333333;
+  padding-top: 3px;
+  padding-bottom: 3px;    
+}
+.copyright p {
+  margin: 10px;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.highlight {
+color: blanchedalmond;
+}
+/* push footer down to bottom of the page. 
+452px = navbar height(56px) + Footer height(396px) */
+.footer-down {
+min-height: calc(100vh - 452px);
+}
+@media screen and (max-width: 767px){
+.footer-img img{
+    padding-bottom: 30px;
+    margin-left: 25px;
+}
+.service-links {
+  padding: 20px;
+  text-align: center;
+}
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
