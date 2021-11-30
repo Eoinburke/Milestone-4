@@ -1,0 +1,3 @@
+import os
+
+os.environ['SECRET_KEY'] = 'sk_test_51K0vkpCeOcKJ8dALxAkt5YnnWi5l9AetUJm55DDHL6NciOigqViIRTDYOwldLHmcHiRFodEB0LnTvXtf83wERMpM000f1CaoIo'
