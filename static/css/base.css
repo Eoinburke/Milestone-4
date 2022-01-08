@@ -12,9 +12,9 @@ body {
 
 /* from Bulma */
 .icon {
-  align-items: center;
-  display: inline-flex;
-  justify-content: center;
+  float: right;
+  
+  
   height: 1.5rem;
   width: 1.5rem;
 }
@@ -31,6 +31,10 @@ body {
   background: black;
   color: white;
   min-width: 260px;
+}
+
+.search-bar {
+  float: right;
 }
 
 .btn-black {
@@ -105,6 +109,51 @@ a.category-badge > span.badge:hover {
 input[name='q']::placeholder {
   color: #aab7c4;
 }
+.landing-image{
+  background-image: url('/media/model.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0%; 
+  background-repeat: no-repeat; 
+  /* Set a specific height */
+  min-height: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.landing-image-2{
+  background-image: url('/media/male.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0%; 
+  background-repeat: no-repeat; 
+  /* Set a specific height */
+  display: block;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.landing-image-3{
+  background-image: url('/media/model2.jpg'); 
+  background-size: cover;
+
+  background-position: 50% 0%; 
+  background-repeat: no-repeat; 
+  /* Set a specific height */
+  min-height: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.landing-font{
+  font-family: 'Raleway', sans-serif;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+  display: block;
+}
 
 /* ------------------------------- bootstrap toasts */
 
@@ -172,6 +221,76 @@ input[name='q']::placeholder {
   height: 100px;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+#footer {
+    background: white;
+    color: white;
+    padding-top: 30px;
+}
+
+footer li {
+    list-style: none;
+}
+footer li a {
+    color: white;
+    text-decoration:none; 
+}
+footer li a:hover {
+    color: white; 
+    text-decoration:none; 
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+  }
+.footer-heading {
+    margin-bottom: 2rem;
+  }
+.footer-img img {
+    width: 80%;
+}
+.footer-links {
+    text-align: center;
+    text-transform: uppercase;
+}
+.social-links{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.social-links a {
+    font-size: 25px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+.social-links a:hover {
+    text-decoration: none;
+    color:rgb(0, 128, 129);
+}
+.service-links {
+    Padding-left : 20px;
+}
+.copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;    
+}
+.copyright p {
+    margin: 10px;
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.highlight {
+  color: blanchedalmond;
+}
+/* push footer down to bottom of the page. 
+452px = navbar height(56px) + Footer height(396px) */
+.footer-down {
+  min-height: calc(100vh - 452px);
 }
 
 /* -------------------------------- Media Queries */
