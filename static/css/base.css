@@ -2,19 +2,10 @@ html {
   height: 100%;
 }
 
-body {
-  background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: calc(100vh - 164px);
-  color: #555;
-  font-family: 'Lato';
-}
 
 /* from Bulma */
 .icon {
   float: right;
-  
-  
   height: 1.5rem;
   width: 1.5rem;
 }
@@ -106,9 +97,6 @@ a.category-badge > span.badge:hover {
   cursor: pointer;
 }
 
-input[name='q']::placeholder {
-  color: #aab7c4;
-}
 .landing-image{
   background-image: url('/media/model.jpg'); 
   background-size: cover;
@@ -137,7 +125,6 @@ input[name='q']::placeholder {
 .landing-image-3{
   background-image: url('/media/model2.jpg'); 
   background-size: cover;
-
   background-position: 50% 0%; 
   background-repeat: no-repeat; 
   /* Set a specific height */
@@ -224,69 +211,83 @@ button:not(:disabled) {
 }
 
 #footer {
-    background: white;
-    color: white;
+    border-top: 7px solid white;
+    background: #1b1b1b;
     padding-top: 30px;
 }
 
-footer li {
-    list-style: none;
-}
-footer li a {
-    color: white;
-    text-decoration:none; 
-}
-footer li a:hover {
-    color: white; 
-    text-decoration:none; 
+h2, h2 {
+  font-size: 2em;
+  
+  color: white;
 }
 
-footer ul {
-    padding: 0;
-    margin: 0;
-  }
-.footer-heading {
-    margin-bottom: 2rem;
-  }
-.footer-img img {
-    width: 80%;
+h5 {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+
 }
+
 .footer-links {
     text-align: center;
     text-transform: uppercase;
 }
+
 .social-links{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
 }
+
 .social-links a {
     font-size: 25px;
     color: #f9f9f9;
     padding: 10px;
     transition: 0.2s;
 }
+
 .social-links a:hover {
     text-decoration: none;
-    color:rgb(0, 128, 129);
+    color:white;
 }
+
+.fa-facebook:hover {
+  font-size: 1.5em;
+  color: white;
+}
+
+.fa-twitter:hover {
+  font-size: 1.5em;
+  color: white;
+}
+
+.fa-instagram:hover {
+  font-size: 1.5em;
+  color: white;
+}
+
 .service-links {
     Padding-left : 20px;
 }
+
 .copyright {
     background-color: #333333;
     padding-top: 3px;
     padding-bottom: 3px;    
 }
+
 .copyright p {
     margin: 10px;
     color: #ccc;
     text-transform: uppercase;
     font-size: 0.7rem;
 }
+
 .highlight {
   color: blanchedalmond;
 }
+
 /* push footer down to bottom of the page. 
 452px = navbar height(56px) + Footer height(396px) */
 .footer-down {
