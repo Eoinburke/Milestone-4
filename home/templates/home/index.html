@@ -2,11 +2,67 @@
 {% load static %}
 
 {% block page_header %}
-  
-  
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
 {% endblock %}
 
 {% block content %}
-  
-{% endblock %}
+   
+<section class="vh-100">
+    <h2 class="hidden"></h2>
+    <div class="landing-image">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-lg-11 my-auto ">
+                    <h1 class="landing-font text-white mt-3">
+                        <bold>Clothes For Every Ocassion!</bold>
+                        <button type="button" href="{% url 'products' %}" class="btn btn-dark">Shop Now!</button>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<br>
+
+<section class="vh-100">
+    <h2 class="hidden"></h2>
+    <div class="landing-image-2">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-lg-11 my-auto ">
+                    <h1 class="landing-font text-white mt-3">
+                        <bold>Clothes For Every Ocassion!</bold>
+                        <button type="button" href="{% url 'products' %}" class="btn btn-dark">Shop Now!</button>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+
+<section class="vh-100">
+    <h2 class="hidden"></h2>
+    <div class="landing-image-3">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-lg-11 my-auto ">
+                    <h1 class="landing-font text-white mt-3">
+                        <bold>Clothes For Every Ocassion!</bold>
+                        <button type="button" href="{% url 'products' %}" class="btn btn-dark">Shop Now!</button>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    {% include 'footer.html' %}
+    {% endblock %}

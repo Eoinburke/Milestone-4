@@ -144,64 +144,7 @@ integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfoo
     </header>
 
 
-    <section class="vh-100">
-        <h2 class="hidden"></h2>
-        <div class="landing-image">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 col-lg-11 my-auto ">
-                        <h1 class="landing-font text-white mt-3">
-                            <bold>Clothes For Every Ocassion!</bold>
-                            <button type="button" class="btn btn-dark">Shop Now!</button>
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <br>
-
-    <section class="vh-100">
-        <h2 class="hidden"></h2>
-        <div class="landing-image-2">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 col-lg-11 my-auto ">
-                        <h1 class="landing-font text-white mt-3">
-                            <bold>Clothes For Every Ocassion!</bold>
-                            <button type="button" class="btn btn-dark">Shop Now!</button>
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <br>
-
-    <section class="vh-100">
-        <h2 class="hidden"></h2>
-        <div class="landing-image-3">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 col-lg-11 my-auto ">
-                        <h1 class="landing-font text-white mt-3">
-                            <bold>Clothes For Every Ocassion!</bold>
-                            <button type="button" class="btn btn-dark">Shop Now!</button>
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-{% include 'footer.html' %}
-
-
-
-
+  
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -226,11 +169,13 @@ integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfoo
     {% block content %}
     {% endblock %}
 
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
+
 
 
 </body>
