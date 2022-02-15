@@ -310,7 +310,7 @@ h5 {
 .error-container {
   padding-top: 5rem;
   padding-bottom: 4rem;
-  background: url('/static/img/error-bg.jpg') no-repeat center center fixed;
+  background: url('media/error-bg.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
