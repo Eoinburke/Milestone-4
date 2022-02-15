@@ -23,11 +23,11 @@
                 Clothing
             </a>
             <ul class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Casual wear &amp; Essentials</a>
-                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Joggers</a>
-                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Jumpers</a>
+                <a href="{% url 'products' %}?category=activewear" class="dropdown-item">Casual wear &amp; Essentials</a>
+                <a href="{% url 'products' %}?category=joggers" class="dropdown-item">Joggers</a>
+                <a href="{% url 'products' %}?category=jumpers" class="dropdown-item">Jumpers</a>
                 <a href="{% url 'products' %}?category=t-shirts" class="dropdown-item">T-shirts</a>
-                <a href="{% url 'products' %}?category=activewear,essentials,jeans,shirts" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=activewear,joggers,t-shirts,jumpers" class="dropdown-item">All Clothing</a>
             </ul>
         </li>
 

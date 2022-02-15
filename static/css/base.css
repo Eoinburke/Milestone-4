@@ -294,6 +294,26 @@ h5 {
   min-height: calc(100vh - 452px);
 }
 
+/*Error pages*/
+.error-heading {
+  font-size: 2.8rem;
+  letter-spacing: 0.3rem;
+  font-family: var(--sawarabi-mincho);
+  text-shadow: 4px 4px 4px var(--lightgrey);
+  color: var(--red-salmon);
+}
+
+.error-sub-heading {
+  font-size: 1.7rem;
+}
+
+.error-container {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  background: url('/static/img/error-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
