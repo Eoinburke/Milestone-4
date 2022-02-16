@@ -404,8 +404,9 @@ color: #17a2b8; /* text-info */
 
 }
  
-@media (max-width: 480px ) {
+@media (min-width: 480px ) {
   .navbar-toggler-icon {
       display: table-footer-group;
+      color: black;
 }
 }
