@@ -401,4 +401,11 @@ color: #17a2b8; /* text-info */
   body {
       height: calc(100vh - 116px);
   }
+
+}
+ 
+@media (max-width: 480px ) {
+  .navbar-toggler-icon {
+      display: table-footer-group;
+}
 }
