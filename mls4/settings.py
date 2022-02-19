@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'z-5#=mu-_8(qulo(d400kqbn=_9j8%p$mn)k*z!)0lp5o)_mgl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['mls4-eb.herokuapp.com', 'localhost']
