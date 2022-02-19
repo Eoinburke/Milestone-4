@@ -7,7 +7,6 @@ The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
 The live website can be viewed [Timeless Men Watches](https://timeless-men-watches.herokuapp.com/)
 
-Testing viewports [Responsive mockup](http://ami.responsivedesign.is/#)
 
 ---
 ## Table of Contents
