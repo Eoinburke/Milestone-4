@@ -11,3 +11,4 @@ django-allauth==0.41.0
 django-storages==1.12.3
 psycopg2-binary==2.9.2
 django-countries==7.2.1
+Pillow==8.4.0
