@@ -74,3 +74,29 @@ Bootstrap 4, HTML and CSS3 will be used on the front-end design.
 12 - Add new services to my website easily.
 13 - Change title, prices and description of services quickly and freely.
 14 - Remove services that are not available
+
+
+### Design
+##### Framework
+- [Bootstrap](https://www.bootstrapcdn.com/), front-end framework is chosen for this project for its easy to use documents and user friendly interface.
+It is used for creating features such as navbar, cards, forms, modals, as well as for the layout.
+
+- [JQuery](https://jquery.com/) is used for initializing some Bootstrap components, as well as for custom functions, DOM manipulation.
+
+#### Colour Scheme
+One of the main goals in UI was to focus user's attention on the UX design. Therefore the colors of the website are very important for grabing users attention one color (white) were mostly used accross the website's design.   
+Different shades of white and black color and shadows allow us to create clean and neat backgrounds and volume effect accross the website.   
+ 
+![Color Palette](https://coolors.co/ffffff-1b1b1b) 
+
+#### Typography
+Original wireframes can be found [here]("").
+
+#### Icons
+Icons are used widely, as they are good attention grabbers. They help users to find and scan content quickly and easily. Another advantage of using them is to help to break language barriers. They create more user-friendly experience for people giving the visual clue about the subject.  
+
+- I used [FontAwesome](https://fontawesome.com/) as the main icon library across the project (e.g. for social media links, forms, cart, search and user icons in navigation).
+
+### Wireframes
+[Balsamiq Wireframes](https://balsamiq.com/) tool was used to create all wireframes for the project.   
+Original desktop wireframes can be found [here]("""") which were modified accordingly for mobile views.   
