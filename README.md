@@ -87,7 +87,7 @@ It is used for creating features such as navbar, cards, forms, modals, as well a
 One of the main goals in UI was to focus user's attention on the UX design. Therefore the colors of the website are very important for grabing users attention one color (white) were mostly used accross the website's design.   
 Different shades of white and black color and shadows allow us to create clean and neat backgrounds and volume effect accross the website.   
  
-![Color Palette](https://coolors.co/ffffff-1b1b1b) 
+[Color Palette](https://coolors.co/ffffff-1b1b1b) 
 
 #### Typography
 Original wireframes can be found [here](https://github.com/Eoinburke/Milestone-4/tree/main/documentation/wireframes).
@@ -112,7 +112,7 @@ Navbar also contains a search box, where a user can search for product. It is co
 Also, navbar contains a cart icon along with a grand total displayed if there are items in the cart added.
 
 #### Footer
- - <img src="/media/read/me/footer.png" alt="footer" target="_blank" rel="noopener" width="850">    
+ - <img src="media/read-me/footer.png" alt="footer" target="_blank" rel="noopener" width="850">    
  
 Footer consists of the company logo and social media links
 Main footer section is stuck to the bottom of the page and displayed across all the screens. It contains the **social media icon-links** which redirect a user to the corresponding page, opening in a new tab. Instagram and Facebook icons open the main pages, as it is not the real company.
@@ -419,4 +419,3 @@ I would like to thank everyone who has helped me throughout the development of t
 - **My mentor** Guido Cecilio for his support, help, patience and guidance, very useful tips and advice!         
 - I would also like to thank the **Code Institute tutors** for their help  assistance and support!    
 - Many thanks to my fellow students, **Slack community**.
-
