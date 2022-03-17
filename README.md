@@ -301,7 +301,7 @@ Item Total | item_total | DecimalField | max_digits=6, decimal_places=2, null=Fa
 - [PostgreSQL](https://www.postgresql.org/) - a production database.
 
 ## Testing
-Testing information can be found in a separate [TESTING.md]() file
+Testing information can be found in a separate [TESTING.md](https://github.com/Eoinburke/Milestone-4/blob/main/TESTING.md) file
 
 
 ## Deployment
