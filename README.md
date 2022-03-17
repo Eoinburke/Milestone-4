@@ -216,7 +216,6 @@ For deployment(production), a **PostgreSQL** database is provided by Heroku as a
  Discontinued | discontinued | BooleanField | default=False
  Image | image| ImageField | null=True, blank=True
  Image Url | image_url | URLField | max_length=1024, null=True, blank=True
- Has Weight | has_weight | BooleanField | default=False, null=True, blank=True
  Sku | sku | CharField | max_length=254, null=True, blank=True
  Duration | duration | IntegerField | null=True, blank=True, validators=[MinValueValidator(1), MaxValueValidator(24)]
  
@@ -242,13 +241,11 @@ Town/City | town_or_city | CharField | max_length=50, null=False, blank=False
 County | county | CharField | max_length=50, null=True, blank=True
 Postcode | postcode | CharField | max_length=20, null=True, blank=True
 Country | country | CountryField | blank_label='Country*', null=False, blank=False
-Purchase Date | purchase_date | DateTimeField | auto_now_add=True
 Delivery Cost | delivery_cost | DecimalField | max_digits=6, decimal_places=2, null=False, default=0
 Order Total | order_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0
 Grand Total | grand_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0
 Original Cart | original_cart | TextField | null=False, blank=False, default=''
-Stripe Pid | stripe_pid | CharField | max_length=254, null=False, blank=False, default=''
-Comment | comment | TextField | max_length=254, null=True, blank=True
+
 
 ##### Order Item Details 
 | **Name** | **Database Key** | **Field Type** | **Validation** |
